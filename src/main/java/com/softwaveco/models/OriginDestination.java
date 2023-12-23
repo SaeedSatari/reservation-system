@@ -1,4 +1,4 @@
-package com.softwaveco.clients.models;
+package com.softwaveco.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.softwaveco.clients.models;
+package com.softwaveco.models.responses;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class DepartureDateTime {
-    private String date;
-    private String time;
+public class AirportInfoResponse {
+    private String iataCode;
+    private String at;
 }

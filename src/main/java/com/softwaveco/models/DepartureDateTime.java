@@ -1,4 +1,4 @@
-package com.softwaveco.clients.models;
+package com.softwaveco.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Traveler {
-    private String id;
-    private String travelerType;
+public class DepartureDateTime {
+    private String date;
+    private String time;
 }

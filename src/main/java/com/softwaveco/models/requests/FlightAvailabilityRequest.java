@@ -1,5 +1,7 @@
-package com.softwaveco.clients.models;
+package com.softwaveco.models.requests;
 
+import com.softwaveco.models.OriginDestination;
+import com.softwaveco.models.Traveler;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class AmadeusFlightAvailabilityRequest {
+public class FlightAvailabilityRequest {
     private List<OriginDestination> originDestinations;
     private List<Traveler> travelers;
     private List<String> sources;

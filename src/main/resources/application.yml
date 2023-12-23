@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: local
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL81Dialect
+#  flyway:
+#    baseline-on-migrate: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: health
